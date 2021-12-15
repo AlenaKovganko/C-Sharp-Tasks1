@@ -11,7 +11,8 @@ int SumDigit(int n)
     }
     return sum;
 }
-Console.WriteLine("Введите число");
+Console.WriteLine("Введите число A");
 int n =Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Сумма цифр в числе");
 Console.WriteLine(SumDigit(n));
+
